@@ -1,2 +1,2 @@
 # Saper
-Lab QT
+i wanna die
