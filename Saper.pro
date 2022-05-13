@@ -11,11 +11,13 @@ CONFIG += c++17
 SOURCES += \
     button.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    sapertimer.cpp
 
 HEADERS += \
     button.h \
-    mainwindow.h
+    mainwindow.h \
+    sapertimer.h
 
 FORMS += \
     mainwindow.ui

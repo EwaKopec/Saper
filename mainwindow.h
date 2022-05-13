@@ -3,6 +3,8 @@
 
 #include <QWidget>
 #include <QMainWindow>
+#include "sapertimer.h"
+#include <QMessageBox>
 
 QT_BEGIN_NAMESPACE
 class QLineEdit;
@@ -29,6 +31,8 @@ private:
     QLineEdit *display;
     enum { NumDigitButtons = 10 };
     Button *fields[NumDigitButtons][NumDigitButtons];
+    SaperTimer* stimer;
+    int OpenedBlocks;
 
 };
 #endif // MAINWINDOW_H
