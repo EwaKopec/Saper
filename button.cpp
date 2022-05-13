@@ -7,13 +7,9 @@ Button::Button(const QString &text, QWidget *parent)
 {
     setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Preferred);
     setText(text);
-    isBomb =  (0 == rand() % 10);
+    value =0;
 }
-//! [0]
-
-//! [1]
 QSize Button::sizeHint() const
-//! [1] //! [2]
 {
     QSize size = QToolButton::sizeHint();
     size.rheight() += 20;

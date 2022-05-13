@@ -10,10 +10,10 @@ class Button : public QToolButton
 
 public:
     explicit Button(const QString &text, QWidget *parent = nullptr);
-
     QSize sizeHint() const override;
-    bool isBomb;
+    bool is_Visible;
     int value;
+    int x,y;
 };
 //! [0]
 
