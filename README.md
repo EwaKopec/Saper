@@ -1,2 +1,1 @@
-# Saper
-i wanna die
+# Saper game with Qt
